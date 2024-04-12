@@ -1,0 +1,154 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/* Fonts */
+.pt-sans narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans narrow-bold {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .londrina-solid-thin {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .londrina-solid-light {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .londrina-solid-regular {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .londrina-solid-black {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .header-logo, .header-slogan, .header-links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .header-slogan {
+    background-color: #DAEBF7;
+    padding: 50px;
+    width: 800px;
+    
+  }
+
+  .header-paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    color: #6D6D6C;
+  }
+
+  .header-links {
+    font-size: 20px;
+    text-decoration: none;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #6d6d6a;
+  }
+
+  .header-img {
+    width: 300px;
+    height: auto;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* width: 800px; */
+    /* margin: 0 auto; */
+    gap:5px;
+  }
+
+  .main-food {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+  }
+
+  .main-food-image {
+    width: 250px;
+    height: auto;
+  }

@@ -2,26 +2,109 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Kenyan Recipe Website</title>
+
     </head>
     <body>
-        <h1>Kenyan Recipes</h1>
-        <ul>
-            <li style="display:inline; list-style-type:none;">
-                <h5>Ugali Recipe</h5>
-                <img src="images/ugali.png" alt="ugali-recipe-image" width="250px" height="auto">
-                <p><a href="recipes/ugali.html">View the recipe</a></p>
-            </li>
-            <li style="display:inline; list-style-type:none;">
-                <h5>Pilau Recipe</h5>
-                <img src="images/pilau.png" alt="pilau-recipe-image" width="250px" height="auto">
-                <p><a href="recipes/pilau.html">View the recipe</a></p>
-            </li>
-            <li style="display:inline; list-style-type:none;">
-                <h5>Githeri Recipe</h5>
-                <img src="images/githeri.png" alt="githeri-recipe-image" width="250px" height="auto">
-                <p><a href="recipes/githeri.html">View the recipe</a></p>
-            </li>
-        </ul>
+        <div class="header">
+            <div class="header-content">
+                <div class="header-logo">
+                    <a href="#home"><img class="header-img" src="./images/pika_logo.png" alt="website-logo"></a>
+                </div>
+                <div class="header-slogan">
+                    <p class="header-paragraph">Cook any meal you want!</p>
+                </div>
+                <div class="header-links">
+                    <a href="#home" class="link">Home</a>
+                    <a href="#about" class="link">About</a>
+                    <a href="#recipes" class="link">Recipes</a>
+                    <a href="#buy" class="link">Buy</a>
+                    <a href="#contact" class="link">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-content">
+                <div class="main-food">
+                    <div class="main-food-title">
+                        <h3 class="food-title">
+                            Ugali
+                        </h3>
+                    </div>
+
+                    <div class="main-food-image">
+                        <img src="./images/ugali.png" alt="" class="food-image">
+                    </div>
+
+                    <div class="main-food-summary">
+                        <p class="food-summary">
+                            Ugali, also known as posho, nsima, 
+                            and other names, is a type of corn meal made from maize or corn flour in several countries in Africa
+                        </p>
+                    </div>
+
+                    <div class="main-food-button">
+                        <p class="food-button">
+                            <a href="recipes/ugali.html">Cook</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-food">
+                    <div class="main-food-title">
+                        <h3 class="food-title">
+                            Pilau
+                        </h3>
+                    </div>
+
+                    <div class="main-food-image">
+                        <img src="./images/pilau.png" alt="" class="food-image">
+                    </div>
+
+                    <div class="main-food-summary">
+                        <p class="food-summary">
+                            Ugali, also known as posho, nsima, 
+                            and other names, is a type of corn meal made from maize or corn flour in several countries in Africa
+                        </p>
+                    </div>
+
+                    <div class="main-food-button">
+                        <p class="food-button">
+                            <a href="recipes/pilau.html">Cook</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-food">
+                    <div class="main-food-title">
+                        <h3 class="food-title">
+                            Githeri
+                        </h3>
+                    </div>
+
+                    <div class="main-food-image">
+                        <img src="./images/githeri.png" alt="" class="food-image">
+                    </div>
+
+                    <div class="main-food-summary">
+                        <p class="food-summary">
+                            Ugali, also known as posho, nsima, 
+                            and other names, is a type of corn meal made from maize or corn flour in several countries in Africa
+                        </p>
+                    </div>
+
+                    <div class="main-food-button">
+                        <p class="food-button">
+                            <a href="recipes/githeri.html">Cook</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
